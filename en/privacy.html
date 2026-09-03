@@ -78,6 +78,15 @@
       font-size: 14px;
     }
 
+    .language-switch {
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255,255,255,.82);
+      color: var(--ink);
+      box-shadow: 0 8px 22px rgba(23,32,38,.07);
+    }
+
     h1 {
       margin: 0;
       font-size: clamp(42px, 7vw, 68px);
@@ -153,9 +162,12 @@
       <a class="brand" href="index.html"><span class="mark">✓</span> Stockly Reserve</a>
       <nav>
         <a href="index.html">Home</a>
+        <a href="press.html">Press</a>
+        <a href="support.html#faq">FAQ</a>
         <a href="support.html">Support</a>
-        <a href="../privacy.html" lang="fr">Francais</a>
+        <a class="language-switch" href="../privacy.html" lang="fr">FR</a>
         <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Terms</a>
+        <a href="https://www.apple.com/legal/privacy/en-ww/">Apple Privacy</a>
       </nav>
     </div>
 
@@ -195,8 +207,9 @@
       <h2>Product Lookup with Open Food Facts</h2>
       <p>
         When you scan or enter a barcode, the app may query Open Food Facts to retrieve public product
-        information such as product name, brand, quantity, category and image. The barcode and a technical
-        app identifier are sent to Open Food Facts to perform that lookup.
+        information such as product name, brand, quantity, category and image. Only the barcode, together
+        with the technical information strictly necessary to process the request, is sent to Open Food Facts.
+        No user account, personal identifier or inventory data is transmitted to the developer.
       </p>
     </section>
 
@@ -238,6 +251,8 @@
       <p style="margin-top:12px;">
         Apple's standard terms are available here:
         <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a>.
+        Apple's privacy policy is available here:
+        <a href="https://www.apple.com/legal/privacy/en-ww/">Apple Privacy Policy</a>.
       </p>
     </section>
 
@@ -278,9 +293,12 @@
 
   <footer>
     <a href="index.html">Home</a>
+    <a href="press.html">Press</a>
+    <a href="support.html#faq">FAQ</a>
     <a href="support.html">Support</a>
-    <a href="../privacy.html" lang="fr">Francais</a>
+    <a class="language-switch" href="../privacy.html" lang="fr">FR</a>
     <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Terms</a>
+    <a href="https://www.apple.com/legal/privacy/en-ww/">Apple Privacy</a>
   </footer>
 </body>
 </html>
